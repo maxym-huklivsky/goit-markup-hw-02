@@ -6,6 +6,7 @@
 	/* colors */
 	--main-txt-cl: #212121;
 	--secondary-txt-cl: #757575;
+	--wight-txt-cl: #ffffff;
 	--accent-cl: #2196F3;
 	--dark-bg-cl: #2F303A;
 	--light-bg-cl: #F5F4FA;
@@ -26,6 +27,17 @@ ul {
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+.title {
+	font-size: 36px;
+	line-height: calc(42 / 36);
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.current {
+	color: var(--accent-cl);
 }
 
 /* Header */
@@ -57,22 +69,22 @@ a {
 }
 
 .nav-link:hover,
-.nav-link:focus {
-	color: var(--accent-cl);
-}
-
+.nav-link:focus,
 .contacs-link:hover,
-.contacs-link:focus {
+.contacs-link:focus,
+.hover-adress:hover,
+.hover-adress:focus {
 	color: var(--accent-cl);
 }
 
+/* !!!index.html */
 /* Hero */
 .hero {
 	background-color: var(--dark-bg-cl);
 }
 
 .main-title {
-	color: #FFFFFF;
+	color: var(--wight-txt-cl);
 
 	font-weight: 900;
 	font-size: 44px;
@@ -90,7 +102,7 @@ a {
    letter-spacing: 0.06em;
 	cursor: pointer;
 
-   color: #FFFFFF;
+	color: var(--wight-txt-cl);
 	background-color: var(--accent-cl);
 }
 
@@ -113,3 +125,71 @@ a {
 /* Work */
 
 
+/* Team */
+.team {
+	background-color: var(--light-bg-cl);
+}
+
+.team-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(19 / 16);
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.team-text {
+	color: var(--secondary-txt-cl);
+	font-size: 16px;
+	line-height: calc(19 / 16);
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+/*!!! portfolio.html */
+/* Portfolio */
+.filter-btn {
+	background-color: var(--light-bg-cl);
+
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(26 / 16);
+	letter-spacing: 0.03em;
+	cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+	color: var(--wight-txt-cl);
+	background-color: var(--accent-cl);
+}
+
+/* Footer */
+.footer {
+	background-color: var(--dark-bg-cl);
+}
+
+address {
+	font-style: normal;
+}
+
+.wight-txt-cl {
+	color: var(--wight-txt-cl);
+}
+
+.footer-adress {
+	color: var(--wight-txt-cl);
+
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	letter-spacing: 0.03em;
+}
+
+.footer-contacs {
+	color: rgba(255, 255, 255, 0.6);
+
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	letter-spacing: 0.03em;
+}
