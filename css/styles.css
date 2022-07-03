@@ -5,9 +5,8 @@
 
 	/* colors */
 	--main-txt-cl: #212121;
-	--accent-txt-cl: #2196F3;
-
-	/* bg colors */
+	--secondary-txt-cl: #757575;
+	--accent-cl: #2196F3;
 	--dark-bg-cl: #2F303A;
 	--light-bg-cl: #F5F4FA;
 
@@ -16,7 +15,7 @@
 
 /* Спільні властивості */
 body {
-	font-family: var(--main-font);
+   font-family: var(--main-font);
 	color: var(--main-txt-cl);
 }
 
@@ -31,7 +30,7 @@ a {
 
 /* Header */
 .accent-cl {
-	color: var(--accent-txt-cl)
+	color: var(--accent-cl)
 }
 
 .logo {
@@ -48,3 +47,69 @@ a {
 	line-height: calc(16 / 14);
 	letter-spacing: 0.02em;
 }
+
+.contacs {
+	color: var(--secondary-txt-cl);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+	color: var(--accent-cl);
+}
+
+.contacs-link:hover,
+.contacs-link:focus {
+	color: var(--accent-cl);
+}
+
+/* Hero */
+.hero {
+	background-color: var(--dark-bg-cl);
+}
+
+.main-title {
+	color: #FFFFFF;
+
+	font-weight: 900;
+	font-size: 44px;
+	line-height: calc(60 / 44);
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.btn {
+	font-family: inherit;
+	font-weight: 700;
+   font-size: 16px;
+   line-height: calc(30 / 16);
+   letter-spacing: 0.06em;
+	cursor: pointer;
+
+   color: #FFFFFF;
+	background-color: var(--accent-cl);
+}
+
+/* Qualities */
+.qualities-title {
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.qualities-text {
+	color: var(--secondary-txt-cl);
+
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	letter-spacing: 0.03em;
+}
+
+/* Work */
+
+
