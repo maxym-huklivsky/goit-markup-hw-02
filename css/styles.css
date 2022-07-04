@@ -16,7 +16,7 @@
 
 /* Спільні властивості */
 body {
-   font-family: var(--main-font);
+	font-family: var(--main-font);
 	color: var(--main-txt-cl);
 }
 
@@ -97,9 +97,9 @@ a {
 .btn {
 	font-family: inherit;
 	font-weight: 700;
-   font-size: 16px;
-   line-height: calc(30 / 16);
-   letter-spacing: 0.06em;
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	letter-spacing: 0.06em;
 	cursor: pointer;
 
 	color: var(--wight-txt-cl);
